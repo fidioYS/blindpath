@@ -1983,7 +1983,7 @@
                     "name": "Activate",
                     "type": "Button",
                     "id": "41976d89-60de-4deb-bff9-16b4af96b290",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2065,6 +2065,15 @@
                     "type": "Value",
                     "id": "19a21f59-bd21-4f77-b29d-4fda26ef6769",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GRIP",
+                    "type": "Value",
+                    "id": "6fb9f6d8-95fa-4996-bfd9-029740f8fb1a",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -2376,6 +2385,17 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "",
                     "action": "Translate Manipulation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fcfff5b8-7cef-4078-8f5e-5392eec3b345",
+                    "path": "<XRController>{RightHand}/{Grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GRIP",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
