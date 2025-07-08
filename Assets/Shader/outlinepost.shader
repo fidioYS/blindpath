@@ -31,8 +31,10 @@ Shader "Hidden/OutlinePost"
                 float2 uv : TEXCOORD0;
             };
 
-            sampler2D _CameraDepthTexture;
-            sampler2D _CameraNormalsTexture;
+            TEXTURE2D(_CameraDepthTexture);
+            SAMPLER(sampler_CameraDepthTexture);
+            TEXTURE2D(_CameraNormalsTexture);
+            SAMPLER(sampler_CameraNormalsTexture);
             float4 _OutlineColor;
             float _Thickness;
 
@@ -50,18 +52,16 @@ Shader "Hidden/OutlinePost"
                 float2 texel = _Thickness / _ScreenParams.xy;
 
                 float depth = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, sampler_CameraDepthTexture, uv);
-                float3 normal = tex2D(_CameraNormalsTexture, uv).xyz;
+                float3 normal = SAMPLE_TEXTURE2D(_CameraNormalsTexture, sampler_CameraNormalsTexture, uv).xyz;
 
                 float edge = 0;
-
-                        float d = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, sampler_CameraDepthTexture, offset);
                 for (int x = -1; x <= 1; x++)
                 {
                     for (int y = -1; y <= 1; y++)
                     {
                         float2 offset = uv + float2(x, y) * texel;
-                        float d = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, offset);
-                        float3 n = tex2D(_CameraNormalsTexture, offset).xyz;
+                        float d = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, sampler_CameraDepthTexture, offset);
+                        float3 n = SAMPLE_TEXTURE2D(_CameraNormalsTexture, sampler_CameraNormalsTexture, offset).xyz;
 
                         if (abs(d - depth) > 0.01 || distance(n, normal) > 0.1)
                         {
