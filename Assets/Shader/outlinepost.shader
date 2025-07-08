@@ -49,12 +49,12 @@ Shader "Hidden/OutlinePost"
                 float2 uv = i.uv;
                 float2 texel = _Thickness / _ScreenParams.xy;
 
-                float depth = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, uv);
+                float depth = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, sampler_CameraDepthTexture, uv);
                 float3 normal = tex2D(_CameraNormalsTexture, uv).xyz;
 
                 float edge = 0;
 
-                // 簡單比較周圍像素深度和法線
+                        float d = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, sampler_CameraDepthTexture, offset);
                 for (int x = -1; x <= 1; x++)
                 {
                     for (int y = -1; y <= 1; y++)
