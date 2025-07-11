@@ -40,10 +40,11 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _fade: 75
-    - _outline_color: 0.5
-    - _outline_thickness: 0.014
-    m_Colors: []
+    - _fade: 10000
+    - _outline_color: 0
+    - _outline_thickness: 0.012
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6027183542413017188
