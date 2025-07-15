@@ -39,24 +39,24 @@ Material:
     m_Ints: []
     m_Floats:
     - Boolean_a1588f281f4343ff8b59f75c07bd6dc0: 0
-    - Checker_Contrast: 2
+    - Checker_Contrast: 50
     - Checker_Size: 100
-    - Metallic: 0.32
+    - Metallic: 0.561
     - Primary_Grid_Line_Width: 0.08
     - Primary_Grid_Size: 10000
     - Projection_Transition_Contrast: 0
     - Secondary_Grid_Fade_Length: 8
-    - Secondary_Grid_Fade_Offset: 0
-    - Secondary_Grid_Intensity: 1
+    - Secondary_Grid_Fade_Offset: 6
+    - Secondary_Grid_Intensity: 0.411
     - Secondary_Grid_Line_Width: 0.005
-    - Secondary_Grid_Size: 25
-    - Smoothness: 0.642
+    - Secondary_Grid_Size: 50
+    - Smoothness: 0.656
     - Use_Secondary_Grid: 1
     - _Grid_offset: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - Floor_Color: {r: 1, g: 1, b: 1, a: 1}
+    - Floor_Color: {r: 0, g: 0, b: 0, a: 1}
     - Line_Tint: {r: 1, g: 1, b: 1, a: 1}
     - Walls_Color: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
