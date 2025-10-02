@@ -52,6 +52,8 @@ namespace Unity.VRTemplate
 
         public void GazeHoverStart()
         {
+            if (!isActiveAndEnabled)
+                return;
             m_Gazing = true;
             if (m_StartCo != null)
                 StopCoroutine(m_StartCo);
@@ -62,6 +64,8 @@ namespace Unity.VRTemplate
 
         public void GazeHoverEnd()
         {
+            if (!isActiveAndEnabled)
+                return;
             m_Gazing = false;
             m_EndCo = StartCoroutine(EndDelay());
         }
