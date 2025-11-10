@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b332b34f42748464e9bd38b7360cc283
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/Demo/DemoScript/SwitchWeapon.cs
+  uploadId: 629441

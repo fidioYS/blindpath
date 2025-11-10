@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 185cb46c64d0d8e4e9bbda11b2f9f4ab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/CoreScript/UseKalman.cs
+  uploadId: 629441

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f7cc59e97d4b2fb4388f27933fffe5e0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/Demo/DemoScript/Shaker.cs
+  uploadId: 629441

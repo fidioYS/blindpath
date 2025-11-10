@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e1542e67f05667f419ef5755110c8d8e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/Demo/Material/Sniper.mat
+  uploadId: 629441

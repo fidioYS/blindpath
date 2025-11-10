@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: db44e0f7101822b469367505bda1f3a6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/Demo/DemoScript/TwoHandWeapon.cs
+  uploadId: 629441

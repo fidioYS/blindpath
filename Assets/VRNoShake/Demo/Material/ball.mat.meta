@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2180235f4be20a442ad268696cd68e6c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/Demo/Material/ball.mat
+  uploadId: 629441

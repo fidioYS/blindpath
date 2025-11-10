@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b0a3899462810104f9734c028020bdd6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/Demo/Scenes/3-EasyPhysicsHand.unity
+  uploadId: 629441

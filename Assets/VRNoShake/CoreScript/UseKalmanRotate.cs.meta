@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ed878aeb8d22eb64bb82960035eccff8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/CoreScript/UseKalmanRotate.cs
+  uploadId: 629441

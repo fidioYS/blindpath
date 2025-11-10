@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b8e99d6dbdbdfb7419508271c06e2b95
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/CoreScript/Physics/HandPhysicsDemo.cs
+  uploadId: 629441

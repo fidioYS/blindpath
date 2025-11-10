@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c49388c78a18bd4c96de9adb2a588b6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242716
+  packageName: VR No Shake
+  packageVersion: 1.2
+  assetPath: Assets/VRNoShake/CoreScript/Physics/lowfriction.physicMaterial
+  uploadId: 629441
